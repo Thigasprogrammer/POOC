@@ -47,7 +47,12 @@ public class Eq2g{
 		return raiz2;
 
 
-	}// raiz2 
+	}// raiz2
+
+	public double fdex(double vx){ // retorna o valor de f(x) para x igual a vx
+		return a * vx * vx + b * vx + c;
+
+	}// fdex
 
 	public double min_max(){ // retorna o valor de máximo ou mínimo da equação 
 		double yv; // define o y do vértice
