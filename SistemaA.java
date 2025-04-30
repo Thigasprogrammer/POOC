@@ -17,7 +17,7 @@ public class SistemaA{
 			System.out.println(tempo + "s, " altura.fdex(tempo) + "m")
 
 		}
-		System.out.print("A altura máxima é " + altura.min_max() + "m")
+		System.out.print("“ALTURA MÁXIMA: "  + altura.min_max() + " metros")
 		teclado.close()
 	}//main
 
